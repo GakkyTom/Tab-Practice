@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		C03745C923CDBD9F00500CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03745C723CDBD9F00500CCE /* LaunchScreen.storyboard */; };
 		C03745D423CDBDA000500CCE /* tab_practice_lineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03745D323CDBDA000500CCE /* tab_practice_lineTests.swift */; };
 		C03745DF23CDBDA000500CCE /* tab_practice_lineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03745DE23CDBDA000500CCE /* tab_practice_lineUITests.swift */; };
+		C03745FE23CDC7E900500CCE /* InfiniteTabPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03745FD23CDC7E900500CCE /* InfiniteTabPageViewController.swift */; };
 		E8E29BD165E81058B36FADC0 /* Pods_tab_practice_line_tab_practice_lineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985579C8635281BD78391685 /* Pods_tab_practice_line_tab_practice_lineUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		C03745DA23CDBDA000500CCE /* tab_practice_lineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tab_practice_lineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03745DE23CDBDA000500CCE /* tab_practice_lineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab_practice_lineUITests.swift; sourceTree = "<group>"; };
 		C03745E023CDBDA000500CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03745FD23CDC7E900500CCE /* InfiniteTabPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteTabPageViewController.swift; sourceTree = "<group>"; };
 		FA0F384ECE164EBE3E8ED3C1 /* Pods-tab_practice_line-tab_practice_lineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab_practice_line-tab_practice_lineUITests.debug.xcconfig"; path = "Target Support Files/Pods-tab_practice_line-tab_practice_lineUITests/Pods-tab_practice_line-tab_practice_lineUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC30CCD27EFB9E6C2FCC5D71 /* Pods_tab_practice_line.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tab_practice_line.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -109,7 +111,6 @@
 				27BCF4948DFF133804E6CA47 /* Pods-tab_practice_lineTests.debug.xcconfig */,
 				98D8384B27E80E4BB8EF3132 /* Pods-tab_practice_lineTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -141,6 +142,7 @@
 			children = (
 				C03745BE23CDBD9F00500CCE /* AppDelegate.swift */,
 				C03745C023CDBD9F00500CCE /* ViewController.swift */,
+				C03745FD23CDC7E900500CCE /* InfiniteTabPageViewController.swift */,
 				C03745C223CDBD9F00500CCE /* Main.storyboard */,
 				C03745C523CDBD9F00500CCE /* Assets.xcassets */,
 				C03745C723CDBD9F00500CCE /* LaunchScreen.storyboard */,
@@ -414,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C03745C123CDBD9F00500CCE /* ViewController.swift in Sources */,
+				C03745FE23CDC7E900500CCE /* InfiniteTabPageViewController.swift in Sources */,
 				C03745BF23CDBD9F00500CCE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -590,6 +593,7 @@
 			baseConfigurationReference = 4A459DF18D6BC141E927309B /* Pods-tab_practice_line.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9632ZD4NL;
 				INFOPLIST_FILE = tab_practice_line/Info.plist;
@@ -599,6 +603,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.eversense.tab-practice-line";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -609,6 +614,7 @@
 			baseConfigurationReference = 616A62655CBF3C0105304FF1 /* Pods-tab_practice_line.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9632ZD4NL;
 				INFOPLIST_FILE = tab_practice_line/Info.plist;
@@ -618,6 +624,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.eversense.tab-practice-line";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
