@@ -1,0 +1,16 @@
+PODS:
+  - TabPageViewController (0.2.7)
+
+DEPENDENCIES:
+  - TabPageViewController
+
+SPEC REPOS:
+  trunk:
+    - TabPageViewController
+
+SPEC CHECKSUMS:
+  TabPageViewController: c37a1257a50c2b50712dde61bf499768eee95b67
+
+PODFILE CHECKSUM: a694f8f3eaaf2d4da4b5835ebfe74c5f06e7eba3
+
+COCOAPODS: 1.8.4

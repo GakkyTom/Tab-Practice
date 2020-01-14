@@ -1,0 +1,6 @@
+framework module Pods_tab_practice_line_tab_practice_lineUITests {
+  umbrella header "Pods-tab_practice_line-tab_practice_lineUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
