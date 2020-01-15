@@ -30,6 +30,7 @@ class InfiniteTabPageViewController: TabPageViewController {
         isInfinity = false
         
         option.tabMargin = 10.0
+        option.tabBackgroundColor = .blue
     }
     
     required init?(coder aDecoder: NSCoder) {

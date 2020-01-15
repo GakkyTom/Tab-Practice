@@ -43,7 +43,7 @@ public struct TabPageOption {
         UIGraphicsBeginImageContext(rect.size)
         let context : CGContext? = UIGraphicsGetCurrentContext()
         let backgroundColor = tabBackgroundColor.withAlphaComponent(tabBarAlpha).cgColor
-        context?.setFillColor(backgroundColor)
+//        context?.setFillColor(backgroundColor)
         context?.fill(rect)
         let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()

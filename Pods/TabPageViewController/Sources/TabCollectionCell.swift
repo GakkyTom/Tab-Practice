@@ -35,11 +35,17 @@ class TabCollectionCell: UICollectionViewCell {
             layoutIfNeeded()
         }
     }
+    var tabColor: UIColor = .white {
+        didSet {
+            tabBackgroundView.backgroundColor = tabColor
+        }
+    }
 
     @IBOutlet fileprivate weak var itemLabel: UILabel!
     @IBOutlet fileprivate weak var currentBarView: UIView!
     @IBOutlet fileprivate weak var currentBarViewHeightConstraint: NSLayoutConstraint!
-
+    
+    @IBOutlet weak var tabBackgroundView: UIView!
     override func awakeFromNib() {
         super.awakeFromNib()
 
@@ -85,7 +91,7 @@ extension TabCollectionCell {
 
     func highlightTitle() {
         itemLabel.textColor = option.currentColor
-        itemLabel.font = UIFont.boldSystemFont(ofSize: option.fontSize)
+        itemLabel.font = UIFont.boldSystemFont(ofSize: option.fontSize + 10)
     }
 
     func unHighlightTitle() {
