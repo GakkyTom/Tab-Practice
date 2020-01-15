@@ -133,7 +133,7 @@ extension TabPageViewController {
     fileprivate func updateNavigationBar() {
         if let navigationBar = navigationController?.navigationBar {
             navigationBar.shadowImage = UIImage()
-//            navigationBar.setBackgroundImage(option.tabBackgroundImage, for: .default)
+            navigationBar.setBackgroundImage(option.tabBackgroundImage, for: .default)
             navigationBar.isTranslucent = option.isTranslucent
         }
     }
@@ -193,7 +193,7 @@ extension TabPageViewController {
     
     private func setupStatusView() {
         let statusView = UIView()
-        statusView.backgroundColor = .white// option.tabBackgroundColor
+//        statusView.backgroundColor = option.tabBackgroundColor
         statusView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(statusView)
         

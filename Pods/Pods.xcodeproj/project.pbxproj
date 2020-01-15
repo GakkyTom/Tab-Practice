@@ -55,7 +55,7 @@
 
 /* Begin PBXFileReference section */
 		080DB6C9E1ABB2B046C9447F14128F04 /* Pods-tab_practice_lineTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tab_practice_lineTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		085BEB8F08C5A4B9123AA2AF29FBB055 /* TabPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TabPageViewController.framework; path = TabPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		085BEB8F08C5A4B9123AA2AF29FBB055 /* TabPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TabPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C249A5A81EBD00DAECE3B3BBB33B5F /* TabPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabPageViewController.swift; path = Sources/TabPageViewController.swift; sourceTree = "<group>"; };
 		118137B51B9B0731FA0FECE66076B1B9 /* Pods-tab_practice_line.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tab_practice_line.modulemap"; sourceTree = "<group>"; };
 		11C1E853BCD96CDA5E2C217BACD798E3 /* TabCollectionCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TabCollectionCell.xib; path = Sources/TabCollectionCell.xib; sourceTree = "<group>"; };
@@ -66,21 +66,21 @@
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3B432E0087045ED13F819BFF692F09AD /* Pods-tab_practice_line-tab_practice_lineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tab_practice_line-tab_practice_lineUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		43CC2EF510D6953D2EBE666ED9EC8D39 /* Pods_tab_practice_line.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tab_practice_line.framework; path = "Pods-tab_practice_line.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CC2EF510D6953D2EBE666ED9EC8D39 /* Pods_tab_practice_line.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tab_practice_line.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4887B210AE4A215E36FF8DAF0A07CA39 /* Pods-tab_practice_line-tab_practice_lineUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tab_practice_line-tab_practice_lineUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4DB28680B141CC418F31380310737D7E /* TabPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TabPageViewController.modulemap; sourceTree = "<group>"; };
-		595094BA2110A2C73583537369F50AC6 /* Pods_tab_practice_lineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tab_practice_lineTests.framework; path = "Pods-tab_practice_lineTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		595094BA2110A2C73583537369F50AC6 /* Pods_tab_practice_lineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tab_practice_lineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E43CE1538C2E886E28EB177375A628 /* TabPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TabPageViewController-dummy.m"; sourceTree = "<group>"; };
 		63BEE55934481758321F2DFB4EE25AA4 /* Pods-tab_practice_lineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tab_practice_lineTests.release.xcconfig"; sourceTree = "<group>"; };
 		66D2DC9045E8396AB1B51314AE61779B /* Pods-tab_practice_line-tab_practice_lineUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tab_practice_line-tab_practice_lineUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6FD3038A931A7B593811B80203D33A22 /* Pods-tab_practice_line-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tab_practice_line-Info.plist"; sourceTree = "<group>"; };
 		720AE4EA602A4580D6145C1DD860F295 /* Pods-tab_practice_line-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tab_practice_line-umbrella.h"; sourceTree = "<group>"; };
 		7B2CEB31ACEC6B0C4340C29E06A453F8 /* Pods-tab_practice_lineTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tab_practice_lineTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7FF5760F4B57DA70E99357C920309ECB /* Pods_tab_practice_line_tab_practice_lineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tab_practice_line_tab_practice_lineUITests.framework; path = "Pods-tab_practice_line-tab_practice_lineUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF5760F4B57DA70E99357C920309ECB /* Pods_tab_practice_line_tab_practice_lineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tab_practice_line_tab_practice_lineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9029D1BAA1214F203C25BA3515A966A2 /* Pods-tab_practice_line-tab_practice_lineUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tab_practice_line-tab_practice_lineUITests-frameworks.sh"; sourceTree = "<group>"; };
 		9578D198AE8D1452DC447A26F6B3B163 /* Pods-tab_practice_lineTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tab_practice_lineTests-dummy.m"; sourceTree = "<group>"; };
 		97E2868953D8D34DDE4746DABE7ACA71 /* TabPageOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabPageOption.swift; path = Sources/TabPageOption.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A77279CDEEFF2BB56D5598689EB130E2 /* Pods-tab_practice_line.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tab_practice_line.release.xcconfig"; sourceTree = "<group>"; };
 		A80BB1BD8489CEF5434EC9A68EDDA81A /* TabPageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TabPageViewController.xcconfig; sourceTree = "<group>"; };
 		A9F75CC1EAF5D2773AAE5A78F0D2A395 /* Pods-tab_practice_lineTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tab_practice_lineTests-Info.plist"; sourceTree = "<group>"; };
@@ -225,7 +225,6 @@
 				8D1FBBE962A6DB07A17B2698E514D66D /* Resources */,
 				C4E4BEFEF14125440F9518EA6C17E91C /* Support Files */,
 			);
-			name = TabPageViewController;
 			path = TabPageViewController;
 			sourceTree = "<group>";
 		};

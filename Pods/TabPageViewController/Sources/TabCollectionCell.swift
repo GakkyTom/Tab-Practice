@@ -92,11 +92,19 @@ extension TabCollectionCell {
     func highlightTitle() {
         itemLabel.textColor = option.currentColor
         itemLabel.font = UIFont.boldSystemFont(ofSize: option.fontSize + 10)
+        tabBackgroundView.backgroundColor = .gray
+        UIView.animate(withDuration: 0.3) {
+            self.tabBackgroundView.center.y -= 50
+        }
     }
 
     func unHighlightTitle() {
         itemLabel.textColor = option.defaultColor
         itemLabel.font = UIFont.systemFont(ofSize: option.fontSize)
+        tabBackgroundView.backgroundColor = .white
+        UIView.animate(withDuration: 0.3) {
+            self.tabBackgroundView.center.y += 50
+        }
     }
 }
 

@@ -6,16 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "tab_practice_line/ViewController.swift"
-            timestampString = "600692226.468197"
+            filePath = "Pods/TabPageViewController/Sources/TabView.swift"
+            timestampString = "600765340.910143"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "buttonPush(_:)"
+            startingLineNumber = "305"
+            endingLineNumber = "305"
+            landmarkName = "configureCell(_:indexPath:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

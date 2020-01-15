@@ -45,8 +45,9 @@ internal class TabView: UIView {
         self.isInfinity = isInfinity
         Bundle(for: TabView.self).loadNibNamed("TabView", owner: self, options: nil)
         addSubview(contentView)
-        contentView.backgroundColor = option.tabBackgroundColor.withAlphaComponent(option.tabBarAlpha)
-
+//        contentView.backgroundColor = option.tabBackgroundColor.withAlphaComponent(option.tabBarAlpha)
+//        contentView.backgroundColor = option.setupTabBackgroundColors[currentIndex]
+        
         let top = NSLayoutConstraint(item: contentView as Any,
             attribute: .top,
             relatedBy: .equal,
@@ -300,6 +301,8 @@ extension TabView: UICollectionViewDataSource {
     fileprivate func configureCell(_ cell: TabCollectionCell, indexPath: IndexPath) {
         let fixedIndex = isInfinity ? indexPath.item % pageTabItemsCount : indexPath.item
         cell.item = pageTabItems[fixedIndex]
+        cell.backgroundColor = option.setupTabBackgroundColors[fixedIndex]
+        print(String(fixedIndex) + ": " + pageTabItems[fixedIndex])
         cell.option = option
         cell.isCurrent = fixedIndex == (currentIndex % pageTabItemsCount)
         cell.tabItemButtonPressedBlock = { [weak self, weak cell] in

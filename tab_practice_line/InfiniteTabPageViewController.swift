@@ -25,12 +25,14 @@ class InfiniteTabPageViewController: TabPageViewController {
         vc5.view.backgroundColor = UIColor(red: 252/255, green: 182/255, blue: 106/255, alpha: 1.0)
         let vc6 = UIViewController()
         vc6.view.backgroundColor = UIColor(red: 149/255, green: 182/255, blue: 106/255, alpha: 1.0)
+        let vc7 = UIStoryboard(name: "AddPage", bundle: nil).instantiateViewController(withIdentifier: "AddPage")
         
-        tabItems = [(vc1, "あるある"), (vc2, "やっちまった！"), (vc3, "つわり"), (vc4, "育児あるある"), (vc5, "離乳食"), (vc6, "妊娠")]
+        tabItems = [(vc1, "あるある"), (vc2, "やっちまった！"), (vc3, "つわり"), (vc4, "育児あるある"), (vc5, "離乳食"), (vc6, "妊娠"), (vc7, "+もっと")]
         isInfinity = false
         
         option.tabMargin = 10.0
-        option.tabBackgroundColor = .blue
+        option.currentColor = .white
+
     }
     
     required init?(coder aDecoder: NSCoder) {

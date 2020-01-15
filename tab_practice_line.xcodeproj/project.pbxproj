@@ -17,6 +17,7 @@
 		C03745D423CDBDA000500CCE /* tab_practice_lineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03745D323CDBDA000500CCE /* tab_practice_lineTests.swift */; };
 		C03745DF23CDBDA000500CCE /* tab_practice_lineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03745DE23CDBDA000500CCE /* tab_practice_lineUITests.swift */; };
 		C03745FE23CDC7E900500CCE /* InfiniteTabPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03745FD23CDC7E900500CCE /* InfiniteTabPageViewController.swift */; };
+		C08D480823CEEBE00054009A /* AddPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08D480723CEEBE00054009A /* AddPage.storyboard */; };
 		E8E29BD165E81058B36FADC0 /* Pods_tab_practice_line_tab_practice_lineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985579C8635281BD78391685 /* Pods_tab_practice_line_tab_practice_lineUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		C03745DE23CDBDA000500CCE /* tab_practice_lineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab_practice_lineUITests.swift; sourceTree = "<group>"; };
 		C03745E023CDBDA000500CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C03745FD23CDC7E900500CCE /* InfiniteTabPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteTabPageViewController.swift; sourceTree = "<group>"; };
+		C08D480723CEEBE00054009A /* AddPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddPage.storyboard; sourceTree = "<group>"; };
 		FA0F384ECE164EBE3E8ED3C1 /* Pods-tab_practice_line-tab_practice_lineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab_practice_line-tab_practice_lineUITests.debug.xcconfig"; path = "Target Support Files/Pods-tab_practice_line-tab_practice_lineUITests/Pods-tab_practice_line-tab_practice_lineUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC30CCD27EFB9E6C2FCC5D71 /* Pods_tab_practice_line.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tab_practice_line.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -143,6 +145,7 @@
 				C03745BE23CDBD9F00500CCE /* AppDelegate.swift */,
 				C03745C023CDBD9F00500CCE /* ViewController.swift */,
 				C03745FD23CDC7E900500CCE /* InfiniteTabPageViewController.swift */,
+				C08D480723CEEBE00054009A /* AddPage.storyboard */,
 				C03745C223CDBD9F00500CCE /* Main.storyboard */,
 				C03745C523CDBD9F00500CCE /* Assets.xcassets */,
 				C03745C723CDBD9F00500CCE /* LaunchScreen.storyboard */,
@@ -288,6 +291,7 @@
 				C03745C923CDBD9F00500CCE /* LaunchScreen.storyboard in Resources */,
 				C03745C623CDBD9F00500CCE /* Assets.xcassets in Resources */,
 				C03745C423CDBD9F00500CCE /* Main.storyboard in Resources */,
+				C08D480823CEEBE00054009A /* AddPage.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
